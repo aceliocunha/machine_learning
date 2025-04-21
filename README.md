@@ -1,4 +1,4 @@
-# Modelos de Redes Neurais com Grafos
+# Machine Learning
 
 Este repositório tem como objetivo reunir implementações de modelos de ML, desde estruturas simples até arquiteturas como CNN e Transformers.
 
