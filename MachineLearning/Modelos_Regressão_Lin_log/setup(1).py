@@ -10,9 +10,10 @@ def run_cmd(cmd):
 
 def setup_tda_env():
 
-    run_cmd("pip install pyg-lib torch-scatter -f https://data.pyg.org/whl/torch-2.1.0+cpu.html")
+    run_cmd("pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu")
     run_cmd("pip install scikit-learn")
-    run_cmd("pip install scikit-tda ripser persim")
+    run_cmd("pip install pandas")
+    run_cmd("pip install numpy")
     run_cmd("pip install ipykernel")
 
     print("\n>> Ambiente configurado com sucesso!")
